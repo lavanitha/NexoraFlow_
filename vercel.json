@@ -1,0 +1,10 @@
+{
+  "framework": "vite",
+  "installCommand": "npm ci --prefix nexoraflow-main",
+  "buildCommand": "cd nexoraflow-main && npm run build",
+  "outputDirectory": "nexoraflow-main/build",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
+
